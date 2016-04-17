@@ -60,6 +60,14 @@ class Menu extends React.Component{
                 <li>
                   <a href="#">Link</a>
                 </li>
+                {this.menuItems.map(item => (
+                  item instanceof Object ?
+                    <li>
+                      <a href={item.path}>{item.text}</a>
+                    </li>
+                  :
+                    <li className="divider"></li>
+                ))}
                 <li className="dropdown">
                   <a aria-expanded="false" className="dropdown-toggle"
                     data-toggle="dropdown" href="#" role="button">Dropdown<span className="caret"></span>
@@ -111,4 +119,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.body)
+ReactDOM.render(<App />, document.getElementById("page"))
