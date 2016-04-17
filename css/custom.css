@@ -1,0 +1,35 @@
+.logo {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  font-family: Cabin,Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  line-height: 1.4em;
+  font-family: "proxima-nova";
+  line-height: 1em;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 80px;
+  text-align: center;
+  display: block;
+  margin: 0 auto 28px;
+}
+
+.logo .tagline{
+  font-family: Cabin,Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  letter-spacing: 0px;
+  font-family: "proxima-nova";
+  line-height: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #ccc;
+  padding-left: 5px;
+}
